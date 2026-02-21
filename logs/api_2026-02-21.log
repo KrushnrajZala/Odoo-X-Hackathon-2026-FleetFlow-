@@ -1,0 +1,756 @@
+[2026-02-21 12:51:31] API called with method: POST
+[2026-02-21 12:51:31] User ID: 13
+[2026-02-21 12:51:31] Raw input received - Data: "{\"pickup\":\"40.724442279333786, -74.0099830669351\",\"dropoff\":\"40.70856884343328, -73.99161529960112\",\"pickup_lat\":\"40.724442279333786\",\"pickup_lng\":\"-74.0099830669351\",\"dropoff_lat\":\"40.70856884343328\",\"dropoff_lng\":\"-73.99161529960112\",\"distance\":\"2.5\",\"fare\":\"13.91\",\"vehicle_type\":\"van\",\"notes\":\"\"}"
+[2026-02-21 12:51:31] Decoded data - Data: {"pickup":"40.724442279333786, -74.0099830669351","dropoff":"40.70856884343328, -73.99161529960112","pickup_lat":"40.724442279333786","pickup_lng":"-74.0099830669351","dropoff_lat":"40.70856884343328","dropoff_lng":"-73.99161529960112","distance":"2.5","fare":"13.91","vehicle_type":"van","notes":""}
+[2026-02-21 12:51:31] All validations passed. Inserting trip...
+[2026-02-21 12:51:31] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        '40.724442279333786, -74.0099830669351', 
+        '40.70856884343328, -73.99161529960112', 
+        40.724442279334, 
+        -74.009983066935, 
+        40.708568843433, 
+        -73.991615299601, 
+        2.5, 
+        13.91, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 12:51:31] Trip inserted with ID: 14
+[2026-02-21 12:51:31] Trip created successfully - Data: {"trip_id":14,"trip_number":"TRIP00014"}
+[2026-02-21 12:51:31] API called with method: POST
+[2026-02-21 12:51:31] User ID: 13
+[2026-02-21 12:51:31] Raw input received - Data: "{\"pickup\":\"40.724442279333786, -74.0099830669351\",\"dropoff\":\"40.70856884343328, -73.99161529960112\",\"pickup_lat\":\"40.724442279333786\",\"pickup_lng\":\"-74.0099830669351\",\"dropoff_lat\":\"40.70856884343328\",\"dropoff_lng\":\"-73.99161529960112\",\"distance\":\"2.5\",\"fare\":\"13.91\",\"vehicle_type\":\"van\",\"notes\":\"\"}"
+[2026-02-21 12:51:31] Decoded data - Data: {"pickup":"40.724442279333786, -74.0099830669351","dropoff":"40.70856884343328, -73.99161529960112","pickup_lat":"40.724442279333786","pickup_lng":"-74.0099830669351","dropoff_lat":"40.70856884343328","dropoff_lng":"-73.99161529960112","distance":"2.5","fare":"13.91","vehicle_type":"van","notes":""}
+[2026-02-21 12:51:31] All validations passed. Inserting trip...
+[2026-02-21 12:51:31] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        '40.724442279333786, -74.0099830669351', 
+        '40.70856884343328, -73.99161529960112', 
+        40.724442279334, 
+        -74.009983066935, 
+        40.708568843433, 
+        -73.991615299601, 
+        2.5, 
+        13.91, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 12:51:31] Trip inserted with ID: 15
+[2026-02-21 12:51:31] Trip created successfully - Data: {"trip_id":15,"trip_number":"TRIP00015"}
+[2026-02-21 12:51:31] API called with method: POST
+[2026-02-21 12:51:31] User ID: 13
+[2026-02-21 12:51:31] Raw input received - Data: "{\"pickup\":\"40.724442279333786, -74.0099830669351\",\"dropoff\":\"40.70856884343328, -73.99161529960112\",\"pickup_lat\":\"40.724442279333786\",\"pickup_lng\":\"-74.0099830669351\",\"dropoff_lat\":\"40.70856884343328\",\"dropoff_lng\":\"-73.99161529960112\",\"distance\":\"2.5\",\"fare\":\"13.91\",\"vehicle_type\":\"van\",\"notes\":\"\"}"
+[2026-02-21 12:51:31] Decoded data - Data: {"pickup":"40.724442279333786, -74.0099830669351","dropoff":"40.70856884343328, -73.99161529960112","pickup_lat":"40.724442279333786","pickup_lng":"-74.0099830669351","dropoff_lat":"40.70856884343328","dropoff_lng":"-73.99161529960112","distance":"2.5","fare":"13.91","vehicle_type":"van","notes":""}
+[2026-02-21 12:51:31] All validations passed. Inserting trip...
+[2026-02-21 12:51:31] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        '40.724442279333786, -74.0099830669351', 
+        '40.70856884343328, -73.99161529960112', 
+        40.724442279334, 
+        -74.009983066935, 
+        40.708568843433, 
+        -73.991615299601, 
+        2.5, 
+        13.91, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 12:51:31] Trip inserted with ID: 16
+[2026-02-21 12:51:31] Trip created successfully - Data: {"trip_id":16,"trip_number":"TRIP00016"}
+[2026-02-21 12:51:36] API called with method: POST
+[2026-02-21 12:51:36] User ID: 13
+[2026-02-21 12:51:36] Raw input received - Data: "{\"pickup\":\"40.724442279333786, -74.0099830669351\",\"dropoff\":\"40.70856884343328, -73.99161529960112\",\"pickup_lat\":\"40.724442279333786\",\"pickup_lng\":\"-74.0099830669351\",\"dropoff_lat\":\"40.70856884343328\",\"dropoff_lng\":\"-73.99161529960112\",\"distance\":\"2.5\",\"fare\":\"13.91\",\"vehicle_type\":\"van\",\"notes\":\"\"}"
+[2026-02-21 12:51:36] Decoded data - Data: {"pickup":"40.724442279333786, -74.0099830669351","dropoff":"40.70856884343328, -73.99161529960112","pickup_lat":"40.724442279333786","pickup_lng":"-74.0099830669351","dropoff_lat":"40.70856884343328","dropoff_lng":"-73.99161529960112","distance":"2.5","fare":"13.91","vehicle_type":"van","notes":""}
+[2026-02-21 12:51:36] All validations passed. Inserting trip...
+[2026-02-21 12:51:36] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        '40.724442279333786, -74.0099830669351', 
+        '40.70856884343328, -73.99161529960112', 
+        40.724442279334, 
+        -74.009983066935, 
+        40.708568843433, 
+        -73.991615299601, 
+        2.5, 
+        13.91, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 12:51:36] Trip inserted with ID: 17
+[2026-02-21 12:51:36] Trip created successfully - Data: {"trip_id":17,"trip_number":"TRIP00017"}
+[2026-02-21 12:51:36] API called with method: POST
+[2026-02-21 12:51:37] User ID: 13
+[2026-02-21 12:51:37] Raw input received - Data: "{\"pickup\":\"40.724442279333786, -74.0099830669351\",\"dropoff\":\"40.70856884343328, -73.99161529960112\",\"pickup_lat\":\"40.724442279333786\",\"pickup_lng\":\"-74.0099830669351\",\"dropoff_lat\":\"40.70856884343328\",\"dropoff_lng\":\"-73.99161529960112\",\"distance\":\"2.5\",\"fare\":\"13.91\",\"vehicle_type\":\"van\",\"notes\":\"\"}"
+[2026-02-21 12:51:37] Decoded data - Data: {"pickup":"40.724442279333786, -74.0099830669351","dropoff":"40.70856884343328, -73.99161529960112","pickup_lat":"40.724442279333786","pickup_lng":"-74.0099830669351","dropoff_lat":"40.70856884343328","dropoff_lng":"-73.99161529960112","distance":"2.5","fare":"13.91","vehicle_type":"van","notes":""}
+[2026-02-21 12:51:37] All validations passed. Inserting trip...
+[2026-02-21 12:51:37] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        '40.724442279333786, -74.0099830669351', 
+        '40.70856884343328, -73.99161529960112', 
+        40.724442279334, 
+        -74.009983066935, 
+        40.708568843433, 
+        -73.991615299601, 
+        2.5, 
+        13.91, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 12:51:37] Trip inserted with ID: 18
+[2026-02-21 12:51:37] Trip created successfully - Data: {"trip_id":18,"trip_number":"TRIP00018"}
+[2026-02-21 12:51:37] API called with method: POST
+[2026-02-21 12:51:37] User ID: 13
+[2026-02-21 12:51:37] Raw input received - Data: "{\"pickup\":\"40.724442279333786, -74.0099830669351\",\"dropoff\":\"40.70856884343328, -73.99161529960112\",\"pickup_lat\":\"40.724442279333786\",\"pickup_lng\":\"-74.0099830669351\",\"dropoff_lat\":\"40.70856884343328\",\"dropoff_lng\":\"-73.99161529960112\",\"distance\":\"2.5\",\"fare\":\"13.91\",\"vehicle_type\":\"van\",\"notes\":\"\"}"
+[2026-02-21 12:51:37] Decoded data - Data: {"pickup":"40.724442279333786, -74.0099830669351","dropoff":"40.70856884343328, -73.99161529960112","pickup_lat":"40.724442279333786","pickup_lng":"-74.0099830669351","dropoff_lat":"40.70856884343328","dropoff_lng":"-73.99161529960112","distance":"2.5","fare":"13.91","vehicle_type":"van","notes":""}
+[2026-02-21 12:51:37] All validations passed. Inserting trip...
+[2026-02-21 12:51:37] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        '40.724442279333786, -74.0099830669351', 
+        '40.70856884343328, -73.99161529960112', 
+        40.724442279334, 
+        -74.009983066935, 
+        40.708568843433, 
+        -73.991615299601, 
+        2.5, 
+        13.91, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 12:51:37] Trip inserted with ID: 19
+[2026-02-21 12:51:37] Trip created successfully - Data: {"trip_id":19,"trip_number":"TRIP00019"}
+[2026-02-21 12:51:47] API called with method: POST
+[2026-02-21 12:51:47] User ID: 13
+[2026-02-21 12:51:47] Raw input received - Data: "{\"pickup\":\"40.724442279333786, -74.0099830669351\",\"dropoff\":\"40.70856884343328, -73.99161529960112\",\"pickup_lat\":\"40.724442279333786\",\"pickup_lng\":\"-74.0099830669351\",\"dropoff_lat\":\"40.70856884343328\",\"dropoff_lng\":\"-73.99161529960112\",\"distance\":\"2.5\",\"fare\":\"13.91\",\"vehicle_type\":\"van\",\"notes\":\"\"}"
+[2026-02-21 12:51:47] Decoded data - Data: {"pickup":"40.724442279333786, -74.0099830669351","dropoff":"40.70856884343328, -73.99161529960112","pickup_lat":"40.724442279333786","pickup_lng":"-74.0099830669351","dropoff_lat":"40.70856884343328","dropoff_lng":"-73.99161529960112","distance":"2.5","fare":"13.91","vehicle_type":"van","notes":""}
+[2026-02-21 12:51:47] All validations passed. Inserting trip...
+[2026-02-21 12:51:48] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        '40.724442279333786, -74.0099830669351', 
+        '40.70856884343328, -73.99161529960112', 
+        40.724442279334, 
+        -74.009983066935, 
+        40.708568843433, 
+        -73.991615299601, 
+        2.5, 
+        13.91, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 12:51:48] Trip inserted with ID: 20
+[2026-02-21 12:51:48] Trip created successfully - Data: {"trip_id":20,"trip_number":"TRIP00020"}
+[2026-02-21 12:51:48] API called with method: POST
+[2026-02-21 12:51:48] User ID: 13
+[2026-02-21 12:51:48] Raw input received - Data: "{\"pickup\":\"40.724442279333786, -74.0099830669351\",\"dropoff\":\"40.70856884343328, -73.99161529960112\",\"pickup_lat\":\"40.724442279333786\",\"pickup_lng\":\"-74.0099830669351\",\"dropoff_lat\":\"40.70856884343328\",\"dropoff_lng\":\"-73.99161529960112\",\"distance\":\"2.5\",\"fare\":\"13.91\",\"vehicle_type\":\"van\",\"notes\":\"\"}"
+[2026-02-21 12:51:48] Decoded data - Data: {"pickup":"40.724442279333786, -74.0099830669351","dropoff":"40.70856884343328, -73.99161529960112","pickup_lat":"40.724442279333786","pickup_lng":"-74.0099830669351","dropoff_lat":"40.70856884343328","dropoff_lng":"-73.99161529960112","distance":"2.5","fare":"13.91","vehicle_type":"van","notes":""}
+[2026-02-21 12:51:48] All validations passed. Inserting trip...
+[2026-02-21 12:51:48] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        '40.724442279333786, -74.0099830669351', 
+        '40.70856884343328, -73.99161529960112', 
+        40.724442279334, 
+        -74.009983066935, 
+        40.708568843433, 
+        -73.991615299601, 
+        2.5, 
+        13.91, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 12:51:48] Trip inserted with ID: 21
+[2026-02-21 12:51:48] Trip created successfully - Data: {"trip_id":21,"trip_number":"TRIP00021"}
+[2026-02-21 12:51:48] API called with method: POST
+[2026-02-21 12:51:48] User ID: 13
+[2026-02-21 12:51:48] Raw input received - Data: "{\"pickup\":\"40.724442279333786, -74.0099830669351\",\"dropoff\":\"40.70856884343328, -73.99161529960112\",\"pickup_lat\":\"40.724442279333786\",\"pickup_lng\":\"-74.0099830669351\",\"dropoff_lat\":\"40.70856884343328\",\"dropoff_lng\":\"-73.99161529960112\",\"distance\":\"2.5\",\"fare\":\"13.91\",\"vehicle_type\":\"van\",\"notes\":\"\"}"
+[2026-02-21 12:51:48] Decoded data - Data: {"pickup":"40.724442279333786, -74.0099830669351","dropoff":"40.70856884343328, -73.99161529960112","pickup_lat":"40.724442279333786","pickup_lng":"-74.0099830669351","dropoff_lat":"40.70856884343328","dropoff_lng":"-73.99161529960112","distance":"2.5","fare":"13.91","vehicle_type":"van","notes":""}
+[2026-02-21 12:51:48] All validations passed. Inserting trip...
+[2026-02-21 12:51:48] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        '40.724442279333786, -74.0099830669351', 
+        '40.70856884343328, -73.99161529960112', 
+        40.724442279334, 
+        -74.009983066935, 
+        40.708568843433, 
+        -73.991615299601, 
+        2.5, 
+        13.91, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 12:51:48] Trip inserted with ID: 22
+[2026-02-21 12:51:48] Trip created successfully - Data: {"trip_id":22,"trip_number":"TRIP00022"}
+[2026-02-21 12:52:01] API called with method: POST
+[2026-02-21 12:52:01] User ID: 13
+[2026-02-21 12:52:01] Raw input received - Data: "{\"pickup\":\"40.724442279333786, -74.0099830669351\",\"dropoff\":\"40.70856884343328, -73.99161529960112\",\"pickup_lat\":\"40.724442279333786\",\"pickup_lng\":\"-74.0099830669351\",\"dropoff_lat\":\"40.70856884343328\",\"dropoff_lng\":\"-73.99161529960112\",\"distance\":\"2.5\",\"fare\":\"13.91\",\"vehicle_type\":\"van\",\"notes\":\"\"}"
+[2026-02-21 12:52:01] Decoded data - Data: {"pickup":"40.724442279333786, -74.0099830669351","dropoff":"40.70856884343328, -73.99161529960112","pickup_lat":"40.724442279333786","pickup_lng":"-74.0099830669351","dropoff_lat":"40.70856884343328","dropoff_lng":"-73.99161529960112","distance":"2.5","fare":"13.91","vehicle_type":"van","notes":""}
+[2026-02-21 12:52:01] All validations passed. Inserting trip...
+[2026-02-21 12:52:01] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        '40.724442279333786, -74.0099830669351', 
+        '40.70856884343328, -73.99161529960112', 
+        40.724442279334, 
+        -74.009983066935, 
+        40.708568843433, 
+        -73.991615299601, 
+        2.5, 
+        13.91, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 12:52:01] Trip inserted with ID: 23
+[2026-02-21 12:52:01] Trip created successfully - Data: {"trip_id":23,"trip_number":"TRIP00023"}
+[2026-02-21 12:52:02] API called with method: POST
+[2026-02-21 12:52:02] User ID: 13
+[2026-02-21 12:52:02] Raw input received - Data: "{\"pickup\":\"40.724442279333786, -74.0099830669351\",\"dropoff\":\"40.70856884343328, -73.99161529960112\",\"pickup_lat\":\"40.724442279333786\",\"pickup_lng\":\"-74.0099830669351\",\"dropoff_lat\":\"40.70856884343328\",\"dropoff_lng\":\"-73.99161529960112\",\"distance\":\"2.5\",\"fare\":\"13.91\",\"vehicle_type\":\"van\",\"notes\":\"\"}"
+[2026-02-21 12:52:02] Decoded data - Data: {"pickup":"40.724442279333786, -74.0099830669351","dropoff":"40.70856884343328, -73.99161529960112","pickup_lat":"40.724442279333786","pickup_lng":"-74.0099830669351","dropoff_lat":"40.70856884343328","dropoff_lng":"-73.99161529960112","distance":"2.5","fare":"13.91","vehicle_type":"van","notes":""}
+[2026-02-21 12:52:02] All validations passed. Inserting trip...
+[2026-02-21 12:52:02] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        '40.724442279333786, -74.0099830669351', 
+        '40.70856884343328, -73.99161529960112', 
+        40.724442279334, 
+        -74.009983066935, 
+        40.708568843433, 
+        -73.991615299601, 
+        2.5, 
+        13.91, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 12:52:02] Trip inserted with ID: 24
+[2026-02-21 12:52:02] Trip created successfully - Data: {"trip_id":24,"trip_number":"TRIP00024"}
+[2026-02-21 12:52:02] API called with method: POST
+[2026-02-21 12:52:02] User ID: 13
+[2026-02-21 12:52:02] Raw input received - Data: "{\"pickup\":\"40.724442279333786, -74.0099830669351\",\"dropoff\":\"40.70856884343328, -73.99161529960112\",\"pickup_lat\":\"40.724442279333786\",\"pickup_lng\":\"-74.0099830669351\",\"dropoff_lat\":\"40.70856884343328\",\"dropoff_lng\":\"-73.99161529960112\",\"distance\":\"2.5\",\"fare\":\"13.91\",\"vehicle_type\":\"van\",\"notes\":\"\"}"
+[2026-02-21 12:52:02] Decoded data - Data: {"pickup":"40.724442279333786, -74.0099830669351","dropoff":"40.70856884343328, -73.99161529960112","pickup_lat":"40.724442279333786","pickup_lng":"-74.0099830669351","dropoff_lat":"40.70856884343328","dropoff_lng":"-73.99161529960112","distance":"2.5","fare":"13.91","vehicle_type":"van","notes":""}
+[2026-02-21 12:52:02] All validations passed. Inserting trip...
+[2026-02-21 12:52:02] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        '40.724442279333786, -74.0099830669351', 
+        '40.70856884343328, -73.99161529960112', 
+        40.724442279334, 
+        -74.009983066935, 
+        40.708568843433, 
+        -73.991615299601, 
+        2.5, 
+        13.91, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 12:52:02] Trip inserted with ID: 25
+[2026-02-21 12:52:02] Trip created successfully - Data: {"trip_id":25,"trip_number":"TRIP00025"}
+[2026-02-21 12:55:33] API called with method: POST
+[2026-02-21 12:55:33] User ID: 13
+[2026-02-21 12:55:33] Raw input received - Data: "{\"pickup\":\"40.724442279333786, -74.0099830669351\",\"dropoff\":\"40.70856884343328, -73.99161529960112\",\"pickup_lat\":\"40.724442279333786\",\"pickup_lng\":\"-74.0099830669351\",\"dropoff_lat\":\"40.70856884343328\",\"dropoff_lng\":\"-73.99161529960112\",\"distance\":\"2.5\",\"fare\":\"13.91\",\"vehicle_type\":\"van\",\"notes\":\"\"}"
+[2026-02-21 12:55:33] Decoded data - Data: {"pickup":"40.724442279333786, -74.0099830669351","dropoff":"40.70856884343328, -73.99161529960112","pickup_lat":"40.724442279333786","pickup_lng":"-74.0099830669351","dropoff_lat":"40.70856884343328","dropoff_lng":"-73.99161529960112","distance":"2.5","fare":"13.91","vehicle_type":"van","notes":""}
+[2026-02-21 12:55:33] All validations passed. Inserting trip...
+[2026-02-21 12:55:33] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        '40.724442279333786, -74.0099830669351', 
+        '40.70856884343328, -73.99161529960112', 
+        40.724442279334, 
+        -74.009983066935, 
+        40.708568843433, 
+        -73.991615299601, 
+        2.5, 
+        13.91, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 12:55:33] Trip inserted with ID: 26
+[2026-02-21 12:55:33] Trip created successfully - Data: {"trip_id":26,"trip_number":"TRIP00026"}
+[2026-02-21 12:55:33] API called with method: POST
+[2026-02-21 12:55:33] User ID: 13
+[2026-02-21 12:55:33] Raw input received - Data: "{\"pickup\":\"40.724442279333786, -74.0099830669351\",\"dropoff\":\"40.70856884343328, -73.99161529960112\",\"pickup_lat\":\"40.724442279333786\",\"pickup_lng\":\"-74.0099830669351\",\"dropoff_lat\":\"40.70856884343328\",\"dropoff_lng\":\"-73.99161529960112\",\"distance\":\"2.5\",\"fare\":\"13.91\",\"vehicle_type\":\"van\",\"notes\":\"\"}"
+[2026-02-21 12:55:33] Decoded data - Data: {"pickup":"40.724442279333786, -74.0099830669351","dropoff":"40.70856884343328, -73.99161529960112","pickup_lat":"40.724442279333786","pickup_lng":"-74.0099830669351","dropoff_lat":"40.70856884343328","dropoff_lng":"-73.99161529960112","distance":"2.5","fare":"13.91","vehicle_type":"van","notes":""}
+[2026-02-21 12:55:33] All validations passed. Inserting trip...
+[2026-02-21 12:55:33] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        '40.724442279333786, -74.0099830669351', 
+        '40.70856884343328, -73.99161529960112', 
+        40.724442279334, 
+        -74.009983066935, 
+        40.708568843433, 
+        -73.991615299601, 
+        2.5, 
+        13.91, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 12:55:33] Trip inserted with ID: 27
+[2026-02-21 12:55:33] Trip created successfully - Data: {"trip_id":27,"trip_number":"TRIP00027"}
+[2026-02-21 12:55:33] API called with method: POST
+[2026-02-21 12:55:33] User ID: 13
+[2026-02-21 12:55:33] Raw input received - Data: "{\"pickup\":\"40.724442279333786, -74.0099830669351\",\"dropoff\":\"40.70856884343328, -73.99161529960112\",\"pickup_lat\":\"40.724442279333786\",\"pickup_lng\":\"-74.0099830669351\",\"dropoff_lat\":\"40.70856884343328\",\"dropoff_lng\":\"-73.99161529960112\",\"distance\":\"2.5\",\"fare\":\"13.91\",\"vehicle_type\":\"van\",\"notes\":\"\"}"
+[2026-02-21 12:55:33] Decoded data - Data: {"pickup":"40.724442279333786, -74.0099830669351","dropoff":"40.70856884343328, -73.99161529960112","pickup_lat":"40.724442279333786","pickup_lng":"-74.0099830669351","dropoff_lat":"40.70856884343328","dropoff_lng":"-73.99161529960112","distance":"2.5","fare":"13.91","vehicle_type":"van","notes":""}
+[2026-02-21 12:55:33] All validations passed. Inserting trip...
+[2026-02-21 12:55:33] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        '40.724442279333786, -74.0099830669351', 
+        '40.70856884343328, -73.99161529960112', 
+        40.724442279334, 
+        -74.009983066935, 
+        40.708568843433, 
+        -73.991615299601, 
+        2.5, 
+        13.91, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 12:55:33] Trip inserted with ID: 28
+[2026-02-21 12:55:33] Trip created successfully - Data: {"trip_id":28,"trip_number":"TRIP00028"}
+[2026-02-21 13:09:38] API called with method: POST
+[2026-02-21 13:09:38] User ID: 13
+[2026-02-21 13:09:38] Raw input received - Data: "{\"pickup\":\"Town hall Anand, SH75, Anand, \u0906\u0923\u0902\u0926, Anand City Taluka, Anand, Gujarat, 388001, India\",\"dropoff\":\"Town hall Anand, SH75, Anand, \u0906\u0923\u0902\u0926, Anand City Taluka, Anand, Gujarat, 388001, India\",\"pickup_lat\":\"22.553456618514947\",\"pickup_lng\":\"72.95075190028003\",\"dropoff_lat\":\"22.552434076507545\",\"dropoff_lng\":\"72.92569148481563\",\"distance\":\"3.1\",\"fare\":\"12.86\",\"vehicle_type\":\"car\",\"notes\":\"\"}"
+[2026-02-21 13:09:39] Decoded data - Data: {"pickup":"Town hall Anand, SH75, Anand, \u0906\u0923\u0902\u0926, Anand City Taluka, Anand, Gujarat, 388001, India","dropoff":"Town hall Anand, SH75, Anand, \u0906\u0923\u0902\u0926, Anand City Taluka, Anand, Gujarat, 388001, India","pickup_lat":"22.553456618514947","pickup_lng":"72.95075190028003","dropoff_lat":"22.552434076507545","dropoff_lng":"72.92569148481563","distance":"3.1","fare":"12.86","vehicle_type":"car","notes":""}
+[2026-02-21 13:09:39] All validations passed. Inserting trip...
+[2026-02-21 13:09:39] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        'Town hall Anand, SH75, Anand, आणंद, Anand City Taluka, Anand, Gujarat, 388001, India', 
+        'Town hall Anand, SH75, Anand, आणंद, Anand City Taluka, Anand, Gujarat, 388001, India', 
+        22.553456618515, 
+        72.95075190028, 
+        22.552434076508, 
+        72.925691484816, 
+        3.1, 
+        12.86, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 13:09:39] Trip inserted with ID: 29
+[2026-02-21 13:09:39] Trip created successfully - Data: {"trip_id":29,"trip_number":"TRIP00029"}
+[2026-02-21 13:09:39] API called with method: POST
+[2026-02-21 13:09:39] User ID: 13
+[2026-02-21 13:09:39] Raw input received - Data: "{\"pickup\":\"Town hall Anand, SH75, Anand, \u0906\u0923\u0902\u0926, Anand City Taluka, Anand, Gujarat, 388001, India\",\"dropoff\":\"Town hall Anand, SH75, Anand, \u0906\u0923\u0902\u0926, Anand City Taluka, Anand, Gujarat, 388001, India\",\"pickup_lat\":\"22.553456618514947\",\"pickup_lng\":\"72.95075190028003\",\"dropoff_lat\":\"22.552434076507545\",\"dropoff_lng\":\"72.92569148481563\",\"distance\":\"3.1\",\"fare\":\"12.86\",\"vehicle_type\":\"car\",\"notes\":\"\"}"
+[2026-02-21 13:09:39] Decoded data - Data: {"pickup":"Town hall Anand, SH75, Anand, \u0906\u0923\u0902\u0926, Anand City Taluka, Anand, Gujarat, 388001, India","dropoff":"Town hall Anand, SH75, Anand, \u0906\u0923\u0902\u0926, Anand City Taluka, Anand, Gujarat, 388001, India","pickup_lat":"22.553456618514947","pickup_lng":"72.95075190028003","dropoff_lat":"22.552434076507545","dropoff_lng":"72.92569148481563","distance":"3.1","fare":"12.86","vehicle_type":"car","notes":""}
+[2026-02-21 13:09:39] All validations passed. Inserting trip...
+[2026-02-21 13:09:39] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        'Town hall Anand, SH75, Anand, आणंद, Anand City Taluka, Anand, Gujarat, 388001, India', 
+        'Town hall Anand, SH75, Anand, आणंद, Anand City Taluka, Anand, Gujarat, 388001, India', 
+        22.553456618515, 
+        72.95075190028, 
+        22.552434076508, 
+        72.925691484816, 
+        3.1, 
+        12.86, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 13:09:39] Trip inserted with ID: 30
+[2026-02-21 13:09:39] Trip created successfully - Data: {"trip_id":30,"trip_number":"TRIP00030"}
+[2026-02-21 13:09:39] API called with method: POST
+[2026-02-21 13:09:39] User ID: 13
+[2026-02-21 13:09:39] Raw input received - Data: "{\"pickup\":\"Town hall Anand, SH75, Anand, \u0906\u0923\u0902\u0926, Anand City Taluka, Anand, Gujarat, 388001, India\",\"dropoff\":\"Town hall Anand, SH75, Anand, \u0906\u0923\u0902\u0926, Anand City Taluka, Anand, Gujarat, 388001, India\",\"pickup_lat\":\"22.553456618514947\",\"pickup_lng\":\"72.95075190028003\",\"dropoff_lat\":\"22.552434076507545\",\"dropoff_lng\":\"72.92569148481563\",\"distance\":\"3.1\",\"fare\":\"12.86\",\"vehicle_type\":\"car\",\"notes\":\"\"}"
+[2026-02-21 13:09:39] Decoded data - Data: {"pickup":"Town hall Anand, SH75, Anand, \u0906\u0923\u0902\u0926, Anand City Taluka, Anand, Gujarat, 388001, India","dropoff":"Town hall Anand, SH75, Anand, \u0906\u0923\u0902\u0926, Anand City Taluka, Anand, Gujarat, 388001, India","pickup_lat":"22.553456618514947","pickup_lng":"72.95075190028003","dropoff_lat":"22.552434076507545","dropoff_lng":"72.92569148481563","distance":"3.1","fare":"12.86","vehicle_type":"car","notes":""}
+[2026-02-21 13:09:39] All validations passed. Inserting trip...
+[2026-02-21 13:09:39] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        'Town hall Anand, SH75, Anand, आणंद, Anand City Taluka, Anand, Gujarat, 388001, India', 
+        'Town hall Anand, SH75, Anand, आणंद, Anand City Taluka, Anand, Gujarat, 388001, India', 
+        22.553456618515, 
+        72.95075190028, 
+        22.552434076508, 
+        72.925691484816, 
+        3.1, 
+        12.86, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 13:09:39] Trip inserted with ID: 31
+[2026-02-21 13:09:39] Trip created successfully - Data: {"trip_id":31,"trip_number":"TRIP00031"}
+[2026-02-21 13:22:34] API called with method: POST
+[2026-02-21 13:22:34] User ID: 13
+[2026-02-21 13:22:34] Raw input received - Data: "{\"pickup\":\"Varick Street, Hudson Square, Lower Manhattan, Manhattan, New York County, New York, 10013, United States\",\"dropoff\":\"40.70955779027002, -73.99092865409331\",\"pickup_lat\":\"40.72243879135573\",\"pickup_lng\":\"-74.00672150077298\",\"dropoff_lat\":\"40.70955779027002\",\"dropoff_lng\":\"-73.99092865409331\",\"distance\":\"5.2\",\"fare\":\"12.84\",\"vehicle_type\":\"bike\",\"notes\":\"\"}"
+[2026-02-21 13:22:34] Decoded data - Data: {"pickup":"Varick Street, Hudson Square, Lower Manhattan, Manhattan, New York County, New York, 10013, United States","dropoff":"40.70955779027002, -73.99092865409331","pickup_lat":"40.72243879135573","pickup_lng":"-74.00672150077298","dropoff_lat":"40.70955779027002","dropoff_lng":"-73.99092865409331","distance":"5.2","fare":"12.84","vehicle_type":"bike","notes":""}
+[2026-02-21 13:22:34] All validations passed. Inserting trip...
+[2026-02-21 13:22:34] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        'Varick Street, Hudson Square, Lower Manhattan, Manhattan, New York County, New York, 10013, United States', 
+        '40.70955779027002, -73.99092865409331', 
+        40.722438791356, 
+        -74.006721500773, 
+        40.70955779027, 
+        -73.990928654093, 
+        5.2, 
+        12.84, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 13:22:35] Trip inserted with ID: 32
+[2026-02-21 13:22:35] Trip created successfully - Data: {"trip_id":32,"trip_number":"TRIP00032"}
+[2026-02-21 13:22:35] API called with method: POST
+[2026-02-21 13:22:35] User ID: 13
+[2026-02-21 13:22:35] Raw input received - Data: "{\"pickup\":\"Varick Street, Hudson Square, Lower Manhattan, Manhattan, New York County, New York, 10013, United States\",\"dropoff\":\"40.70955779027002, -73.99092865409331\",\"pickup_lat\":\"40.72243879135573\",\"pickup_lng\":\"-74.00672150077298\",\"dropoff_lat\":\"40.70955779027002\",\"dropoff_lng\":\"-73.99092865409331\",\"distance\":\"5.2\",\"fare\":\"12.84\",\"vehicle_type\":\"bike\",\"notes\":\"\"}"
+[2026-02-21 13:22:35] Decoded data - Data: {"pickup":"Varick Street, Hudson Square, Lower Manhattan, Manhattan, New York County, New York, 10013, United States","dropoff":"40.70955779027002, -73.99092865409331","pickup_lat":"40.72243879135573","pickup_lng":"-74.00672150077298","dropoff_lat":"40.70955779027002","dropoff_lng":"-73.99092865409331","distance":"5.2","fare":"12.84","vehicle_type":"bike","notes":""}
+[2026-02-21 13:22:35] All validations passed. Inserting trip...
+[2026-02-21 13:22:35] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        'Varick Street, Hudson Square, Lower Manhattan, Manhattan, New York County, New York, 10013, United States', 
+        '40.70955779027002, -73.99092865409331', 
+        40.722438791356, 
+        -74.006721500773, 
+        40.70955779027, 
+        -73.990928654093, 
+        5.2, 
+        12.84, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 13:22:35] Trip inserted with ID: 33
+[2026-02-21 13:22:35] Trip created successfully - Data: {"trip_id":33,"trip_number":"TRIP00033"}
+[2026-02-21 13:22:35] API called with method: POST
+[2026-02-21 13:22:35] User ID: 13
+[2026-02-21 13:22:35] Raw input received - Data: "{\"pickup\":\"Varick Street, Hudson Square, Lower Manhattan, Manhattan, New York County, New York, 10013, United States\",\"dropoff\":\"40.70955779027002, -73.99092865409331\",\"pickup_lat\":\"40.72243879135573\",\"pickup_lng\":\"-74.00672150077298\",\"dropoff_lat\":\"40.70955779027002\",\"dropoff_lng\":\"-73.99092865409331\",\"distance\":\"5.2\",\"fare\":\"12.84\",\"vehicle_type\":\"bike\",\"notes\":\"\"}"
+[2026-02-21 13:22:35] Decoded data - Data: {"pickup":"Varick Street, Hudson Square, Lower Manhattan, Manhattan, New York County, New York, 10013, United States","dropoff":"40.70955779027002, -73.99092865409331","pickup_lat":"40.72243879135573","pickup_lng":"-74.00672150077298","dropoff_lat":"40.70955779027002","dropoff_lng":"-73.99092865409331","distance":"5.2","fare":"12.84","vehicle_type":"bike","notes":""}
+[2026-02-21 13:22:35] All validations passed. Inserting trip...
+[2026-02-21 13:22:35] Executing SQL: INSERT INTO trips (
+        passenger_id, 
+        pickup_location, 
+        dropoff_location, 
+        pickup_lat, 
+        pickup_lng, 
+        dropoff_lat, 
+        dropoff_lng, 
+        distance_km, 
+        estimated_fare, 
+        status, 
+        payment_method, 
+        payment_status,
+        created_at
+    ) VALUES (
+        13, 
+        'Varick Street, Hudson Square, Lower Manhattan, Manhattan, New York County, New York, 10013, United States', 
+        '40.70955779027002, -73.99092865409331', 
+        40.722438791356, 
+        -74.006721500773, 
+        40.70955779027, 
+        -73.990928654093, 
+        5.2, 
+        12.84, 
+        'pending', 
+        'cash', 
+        'pending',
+        NOW()
+    )
+[2026-02-21 13:22:35] Trip inserted with ID: 34
+[2026-02-21 13:22:35] Trip created successfully - Data: {"trip_id":34,"trip_number":"TRIP00034"}
